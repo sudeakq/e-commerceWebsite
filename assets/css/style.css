@@ -733,7 +733,7 @@ blockquote.text-white cite span {
 /* Header */
 .header {
   width: 100%;
-  background-color: #fff;
+  background-color: #fcf8f4 !important;
 }
 
 .header .container,
