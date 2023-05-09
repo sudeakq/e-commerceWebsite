@@ -767,20 +767,21 @@ blockquote.text-white cite span {
   align-self: stretch;
 }
 
+/* 
+SABİTLEME İŞİ BURADA */
+/* 
 .header-middle-center {
   background-color: #fcf8f4;
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 1000;
-
-}
+  top: 0;
+  z-index: 100;
+  position: fixed;
+} */
 
 
 
 
 .header-center {
-
   display: flex;
   justify-content: center;
   margin-left: auto;
