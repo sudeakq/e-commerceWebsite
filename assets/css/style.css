@@ -74,9 +74,13 @@ body {
   overflow-x: hidden;
 }
 
+
+
+
+
 @font-face {
   font-family: 'Museo Sans';
-  src: url("../fonts/Museo/MuseoSans-100.otf");
+  src: url("../fonts/Museo/MuseoSans-100.woff");
 }
 
 ::-moz-selection {
@@ -2183,6 +2187,7 @@ blockquote.text-white cite span {
 }
 
 .menu>li>a {
+  font-family: 'Museo Sans';
   white-space: nowrap;
   color: #333;
   font-weight: 500;
