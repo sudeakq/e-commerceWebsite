@@ -742,13 +742,14 @@ blockquote.text-white cite span {
 }
 
 .header-2 .header-search .header-search-wrapper {
-  --height: 50px;
-  border: 1px solid #0000;
-  border-radius: var(--height);
-  font-size: 15px;
+  /* --height: 50px;
+  border: 1px solid #0000; */
+  /* border-radius: var(--height); */
+  /* font-size: 15px;
   height: var(--height);
   padding: 0 40px 0 24px;
-  width: 100%;
+  width: 100%; */
+  border-radius: 10px;
 
 }
 
@@ -770,7 +771,7 @@ blockquote.text-white cite span {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 
@@ -7128,6 +7129,8 @@ a:focus {
 
 .button--primary,
 button.adyen-checkout__button {
+  border: 0;
+  padding: 0px 15px;
   background-color: #de896e;
   color: #fff;
   font-weight: 600;
@@ -7139,6 +7142,10 @@ button.adyen-checkout__button {
   flex-direction: row;
   display: flex;
   justify-content: center;
+}
+
+.border-radius-onbes {
+  border-radius: 15px;
 }
 
 .banner-left-inner {
@@ -7155,6 +7162,25 @@ button.adyen-checkout__button {
   line-height: 48px;
   padding: 0 24px;
   width: 100%;
+}
+
+
+
+.seo__text:only-child {
+  margin-bottom: 0;
+}
+
+.seo__text,
+.seo__text>div {
+  color: #21201fb3;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.lh-lg {
+  line-height: 1.4;
 }
 
 /* Footers */
