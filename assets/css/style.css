@@ -65,12 +65,18 @@ html {
 }
 
 body {
-  font: normal 300 1.4rem/1.86 "Poppins", sans-serif;
+  /* font: normal 300 1.4rem/1.86 "Poppins", sans-serif; */
+  font-family: 'Museo Sans', sans-serif;
   color: #666666;
   background-color: #fcf8f4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/Museo/MuseoSans-100.otf");
 }
 
 ::-moz-selection {
@@ -749,7 +755,7 @@ blockquote.text-white cite span {
   height: var(--height);
   padding: 0 40px 0 24px;
   width: 100%; */
-  border-radius: 10px;
+  border-radius: 20px;
 
 }
 
@@ -854,7 +860,7 @@ blockquote.text-white cite span {
 }
 
 .top-menu {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -.01em;
   margin: 0;
 }
@@ -914,7 +920,7 @@ blockquote.text-white cite span {
   padding-bottom: .2rem;
   padding-right: 2.2rem;
   align-items: center;
-  text-transform: uppercase;
+
 }
 
 .header-dropdown>a::after,
@@ -2183,7 +2189,6 @@ blockquote.text-white cite span {
   font-size: 1.5rem;
   letter-spacing: -.01em;
 
-  text-transform: uppercase;
 
 }
 
