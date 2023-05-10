@@ -1085,6 +1085,7 @@ SABİTLEME İŞİ BURADA */
   visibility: hidden;
   opacity: 0;
   transition: all .25s;
+  position: absolute;
 }
 
 .cart-dropdown .dropdown-menu:before,
