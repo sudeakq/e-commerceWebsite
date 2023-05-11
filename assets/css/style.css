@@ -12156,9 +12156,9 @@ a:focus {
 
 .product-body {
   position: relative;
-  padding: 1.6rem 2rem;
+  /* padding: 1.6rem 2rem; */
   transition: all .35s ease;
-  background-color: #fff;
+  background-color: #fcf8f4;
 }
 
 .product-body.product-action-inner {
@@ -13428,7 +13428,7 @@ a:focus {
 }
 
 .product.product-11 .product-body {
-  padding-bottom: 7rem;
+  /* padding-bottom: 7rem; */
 }
 
 .product.product-11 .product-action {
