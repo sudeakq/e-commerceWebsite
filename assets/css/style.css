@@ -12198,6 +12198,7 @@ a:focus {
 
 .product-title a {
   color: inherit;
+  padding: 10px;
 }
 
 .product-title a:hover,
